@@ -50,12 +50,12 @@ export default function App() {
         <div className={`mobile-panel ${menuOpen ? "open" : ""}`}>
           <nav className="mobile-nav">
             <ul>
-              <li><Link to="/" onClick={() => setMenuOpen(false)} className="icon-link" title="Home"><img src={homeIcon} alt="Home" className="nav-icon" />Home</Link></li>
-              <li><Link to="/books" onClick={() => setMenuOpen(false)} className="icon-link" title="Books"><img src={booksIcon} alt="Books" className="nav-icon" /><Books></Books></Link></li>
-              <li><Link to="/about" onClick={() => setMenuOpen(false)} className="icon-link" title="About"><img src={aboutIcon} alt="About" className="nav-icon" /></Link>About</li>
-              <li><Link to="/contact" onClick={() => setMenuOpen(false)} className="icon-link" title="Contact"><img src={contactIcon} alt="Contact" className="nav-icon" /></Link>Contact</li>
-              <li><Link to="/signin" onClick={() => setMenuOpen(false)} className="icon-link" title="Sign In"><img src={signinIcon} alt="Sign In" className="nav-icon" /></Link>Sign In</li>
-              <li><Link to="/cart" onClick={() => setMenuOpen(false)} className="icon-link" title="Cart"><img src={cartIcon} alt="Cart" className="nav-icon" /></Link>Cart</li>
+              <li><Link to="/" onClick={() => setMenuOpen(false)} className="full-link" title="Home">Home</Link></li>
+              <li><Link to="/books" onClick={() => setMenuOpen(false)} className="full-link" title="Books">Books</Link></li>
+              <li><Link to="/about" onClick={() => setMenuOpen(false)} className="full-link" title="About">About</Link></li>
+              <li><Link to="/contact" onClick={() => setMenuOpen(false)} className="full-link" title="Contact">Contact</Link></li>
+              <li><Link to="/signin" onClick={() => setMenuOpen(false)} className="full-link" title="Sign In">Sign In</Link></li>
+              <li><Link to="/cart" onClick={() => setMenuOpen(false)} className="full-link" title="Cart">Cart</Link></li>
             </ul>
           </nav>
         </div>
